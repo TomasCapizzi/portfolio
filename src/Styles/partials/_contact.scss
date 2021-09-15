@@ -1,0 +1,40 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    h3{
+        text-align: center;
+        color: #ED6C4E;
+        font-size: 3.6rem;
+        padding: 0;
+    }
+    p{
+        width: 40%;
+        font-size: 1.4rem;
+        color: #98C1D9;
+        margin-left: 25px;
+        letter-spacing: 1px;
+        text-align: justify;
+    }
+
+    .contact-icons{
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+        margin-bottom: 80px;
+        width: 30%;
+        li{
+            a{
+                color: #ED6C4E;
+            }
+            
+            font-size: 2.4rem;
+        }
+        a:hover{
+            color: #98C1D9;
+        }
+    }
+}

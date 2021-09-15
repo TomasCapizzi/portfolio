@@ -1,0 +1,27 @@
+.menu{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #293242;
+   /* position: fixed;*/
+    ul{
+        display: flex;
+        list-style: none;
+        width: 50%;
+        li{
+            margin-right: 40px;
+            color: #ED6C4E;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        li:hover{
+            color: #98C1D9;
+        }
+    }
+    .languages{
+        justify-content: flex-end;
+        li{
+            margin-right: 15px;
+        }
+    }
+}
