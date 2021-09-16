@@ -88,7 +88,52 @@
 
 }
 
-@media only screen and(min-width:600px) and (max-width: 840px){
+@media only screen and(min-width:600px) and (max-width: 1024px){
+    .about-me{
+
+        h1{
+            font-size: 3rem;
+        }
+        .info{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            div{
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 60%;
+                }
+            }
+            p{
+                width: 90%;
+                font-size: 1.25rem;
+            }
+        }
+        ul{
+            width: 90%;
+            display: flex;
+            list-style: none;
+            justify-content: space-around;
+            margin: 0;
+            padding: 0;
+            li{
+                color: #ED6C4E;
+                font-size: 2rem;
+            }
+            li:hover{
+                color: #98C1D9;
+            }
+        }
+    }
+}
+
+
+
+
+@media only screen and(min-width:840px) and (max-width: 1024px){
     .about-me{
 
         h1{

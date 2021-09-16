@@ -64,3 +64,28 @@
     }
 
 }
+
+@media only screen and (min-width:800px) and (max-width: 1024px){
+    .contact{
+        display: flex;
+        padding: 0;
+        width: 100%;
+        h3{
+            font-size: 3.2rem;
+            width: 100%;
+        }
+        p{
+            width: 75%;
+            font-size: 1.3rem;
+        }
+    
+        .contact-icons{
+            justify-content: space-around;
+            margin-bottom: 60px;
+            width: 50%;
+            li{                
+                font-size: 2.2rem;
+            }
+        }
+    }
+}

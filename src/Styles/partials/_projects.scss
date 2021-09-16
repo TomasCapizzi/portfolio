@@ -320,3 +320,187 @@
     }
 
 } 
+
+
+
+@media only screen and(min-width:840px) and (max-width: 1024px){
+
+
+    .projects{
+        margin-top: 50px;
+        h3{
+            font-size: 3.3rem;
+        }
+    }
+
+    .projects-react{
+        background-color: #ED6C4E;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    
+        span{
+            width: 0px;
+        }
+        div:nth-child(1){
+            width: 100%;
+            justify-content: space-around;
+            margin-left: 0px;
+            margin-bottom: 15px;
+            h3{
+                font-size: 3.2rem;
+                width: 50%;
+            }
+            svg{
+                font-size: 70px;
+                width: 50%;
+            }
+        }  
+    }   
+    
+    .projects-jsVanilla{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    
+        span{
+            width: 0px;
+        }
+    
+        div:nth-child(1){
+            width: 100%;
+            justify-content: space-around;
+            margin-left: 0px;
+            margin-bottom: 15px;
+            h3{
+                font-size: 3.2rem;
+                width: 50%;
+            }
+            svg{
+                font-size: 70px;
+                width: 50%;
+            }
+        }
+    }
+    
+    
+    .projects-wordpress{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        span{
+            width: 0px;
+        }
+    
+        div:nth-child(1){
+            width: 100%;
+            justify-content: space-around;
+            margin-left: 0px;
+            margin-bottom: 15px;
+            h3{
+                font-size: 3.2rem;
+                width: 50%;
+            }
+            svg{
+                font-size: 70px;
+                width: 50%;
+            }
+        }
+    }
+
+}
+
+
+@media only screen and(min-width:1024px) and (max-width: 1400px){
+
+
+    .projects{
+        margin-top: 50px;
+        h3{
+            font-size: 3.6rem;
+        }
+    }
+
+    .projects-react{
+        background-color: #ED6C4E;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    
+        span{
+            width: 0px;
+        }
+        div:nth-child(1){
+            width: 100%;
+            margin-left: 0px;
+            margin-bottom: 15px;
+            justify-content: center;
+            h3{
+                font-size: 3.6rem;
+                width: 20%;
+                
+            }
+            svg{
+                font-size: 80px;
+                width: 20%;
+            }
+        }  
+    }   
+    
+    .projects-jsVanilla{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+    
+        span{
+            width: 0px;
+        }
+    
+        div:nth-child(1){
+            width: 100%;
+            justify-content: center;
+            margin-left: 0px;
+            margin-bottom: 15px;
+            h3{
+                font-size: 3.6rem;
+                width: 20%;
+            }
+            svg{
+                font-size: 70px;
+                width: 20%;
+            }
+        }
+    }
+    
+    
+    .projects-wordpress{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        span{
+            width: 0px;
+        }
+    
+        div:nth-child(1){
+            width: 100%;
+            justify-content: center;
+            margin-left: 0px;
+            margin-bottom: 15px;
+            h3{
+                font-size: 3.6rem;
+                width: 20%;
+            }
+            svg{
+                font-size: 70px;
+                width: 20%;
+            }
+        }
+    }
+
+}
