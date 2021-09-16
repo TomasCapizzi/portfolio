@@ -25,3 +25,124 @@
         }
     }
 }
+
+.menu-hamb{
+    display: none;
+    .hamb-links{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 600px){
+    .menu{
+        display: none;
+    }
+
+    .menu-hamb{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        background-color: #293242;
+        position: relative;
+
+        a{
+            margin-left: 15px;
+            color: #ED6C4E;
+            font-weight: bold;
+            cursor: pointer;
+            font-size: 1.2rem;
+        }
+        a:hover{
+            color: #98C1D9;
+            transition: ease-in-out 0.2s;
+        }
+        button{
+            background-color: transparent;
+            color: #98C1D9;
+            border: none;
+            font-size: 1.4rem;
+            cursor: pointer;
+        }
+
+        .on{
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+            top: 30px;
+            right: 0;
+            background-color: #98C1D9;
+            align-items: center;
+            ul{
+                width: 100%;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                a{
+                    list-style: none;
+                    text-align: center;
+                    text-decoration: none;
+                    margin: 0;
+                    color: #293242;
+                    font-size: 1.25rem;
+                    max-width: 100%;
+                    li{
+                        margin: 0;
+                        padding: 5px;
+                    }
+                }
+                a li:hover{
+                    transition: ease-in-out 0.3s;
+                    background-color: #293242;
+                    color: #ED6C4E;
+                }
+            }
+
+            div{
+                display: flex;
+                justify-content: space-around;
+                width: 100%;
+                background-color: #293242;
+                button{
+                    color: #ED6C4E;
+                    width: 50%;
+                }
+                button:hover{
+                    background-color: #ED6C4E;
+                    color: #293242;
+                    transition: ease-in-out 0.3s;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and(min-width:600px) and (max-width: 840px){
+    .menu{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        background-color: #293242;
+       /* position: fixed;*/
+        ul{
+            display: flex;
+            list-style: none;
+            width: 20%;
+            li{
+                margin-right: 40px;
+                color: #ED6C4E;
+                font-weight: bold;
+                cursor: pointer;
+            }
+            li:hover{
+                color: #98C1D9;
+            }
+        }
+
+        ul:nth-child(1){
+            width: 80%;
+        }
+    }
+}

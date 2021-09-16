@@ -50,3 +50,53 @@
 
     }
 }
+
+@media only screen and (max-width: 600px){
+
+    .detail-container{
+        h1{
+            font-size: 2.8rem;
+        }
+        div{
+            display: flex;
+            flex-wrap: nowrap;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 0px;    
+            .detail-descrip{
+                width: 90%;
+                display: flex;
+                flex-wrap: wrap;
+                margin-bottom: 250px;
+                justify-content: flex-end;
+                p{
+                    width: 100%;
+                    margin-top: 50px;
+                    font-size: 1.1rem;
+                    color:#98C1D9;
+                }
+                a{
+                    text-decoration: none;
+                    color: #ED6C4E;
+                    font-size: 2rem;
+                    margin-top: 15px;
+                }
+                a:hover{
+                    color: #98C1D9;
+                }
+    
+            }
+            a{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                img{
+                    width: 90%;
+                    border-radius: 10px;
+                }
+            }
+    
+        }
+    }
+}
