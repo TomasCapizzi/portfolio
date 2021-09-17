@@ -13,7 +13,7 @@ export default function Project({item}){
                 <div className='view-descrip'>
                     <h5>{item.name}</h5>
                     <div>
-                        <button><Link to={'/project/' + item.id}>See Detail</Link></button>
+                        <button><Link to={'/project/' + item.id}>Detail</Link></button>
                         <button><a href={item.route} target='_blank' rel="noreferrer">Deploy</a></button>
                     </div>
                 </div>

@@ -16,6 +16,7 @@
         }
         li:hover{
             color: #98C1D9;
+            transition: ease-in 0.15s;
         }
     }
     .languages{
@@ -23,8 +24,15 @@
         li{
             margin-right: 15px;
         }
+        .englishOn{
+            color: #98C1D9;
+        }
+        .englishOff{
+            color: #ED6C4E;
+        }
     }
 }
+
 
 .menu-hamb{
     display: none;

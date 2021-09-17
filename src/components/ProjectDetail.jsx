@@ -1,9 +1,11 @@
-import React, {useState, useEffect} from 'react';
+import React, {useState,useContext ,useEffect} from 'react';
 import { useParams } from 'react-router';
 import {projectsList} from '../projectsList';
-import {AiFillGithub} from 'react-icons/ai'
+import {AiFillGithub} from 'react-icons/ai';
+import { LanguageContext } from './Languagecontext/LanguageContext';
 
 export default function ProjectDetail(){
+    const {english} = useContext(LanguageContext)
     const{id} = useParams();
     const [project, setProject] = useState();
 
@@ -18,8 +20,8 @@ export default function ProjectDetail(){
             <div>
                 <a href={project.route} target='_blank' rel="noreferrer">{project.gif ? <img src={'../.' + project.gif} alt="project"/> : <img src={'../.' + project.img} alt="project" />}</a>
                 <div className='detail-descrip'>
-                    <p>{project.description}</p>
-                    {project.repo && <a href={project.repo} target='_blank' rel='noreferrer'><AiFillGithub/></a>}
+                    <p>{english? project.description : project.descripcion}</p>
+                    {project.repo && <a href={project.repo} target='_blank' rel='noreferrer'><AiFillGithub id='github-icon'/></a>}
                 </div>
             </div>
             </> : <div></div>  }

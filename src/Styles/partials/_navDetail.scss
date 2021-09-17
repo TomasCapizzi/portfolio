@@ -1,0 +1,33 @@
+.menu-detail{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #293242;
+    ul{
+        display: flex;
+        list-style: none;
+        width: 50%;
+        li{
+            margin-right: 40px;
+            color: #ED6C4E;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        li:hover{
+            color: #98C1D9;
+            transition: ease-in 0.15s;
+        }
+    }
+    .languages{
+        justify-content: flex-end;
+        li{
+            margin-right: 15px;
+        }
+        .englishOn{
+            color: #98C1D9;
+        }
+        .englishOff{
+            color: #ED6C4E;
+        }
+    }
+}
