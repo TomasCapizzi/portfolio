@@ -97,5 +97,15 @@ export const projectsList = [
         route: 'https://tomascapizzi.github.io/pokedex/',
         descripcion: 'Este Pokedex esta hecho con la PokeApi. Podemos obtener cada pókemon, ir del id mas bajo al mas alto o viceversa, ver las características a través de un modal y tambien esta paginado. fue realizado con HTML - CSS - JS',
         description: 'This Pokedex was made with the PokeApi API. We can obtain each Pokemon character, go from lowest to highest, see the characteristics of each one through a modal; and it is also paged in order to see a specific amount of pokemons per page. It was made with HTML - CSS - JS'
-    }
+    },{
+        id:11,
+        name: 'Trivia App',
+        code: 'react',
+        repo:'https://github.com/TomasCapizzi/Trivia',
+        img: './img/responsive/trivia.png',
+        gif: './gif/trivia.gif',
+        route: 'https://trivia-app-project.netlify.app/',
+        descripcion: 'Use la api Open-Trivia y cree esta app donde podes jugar diferentes quizes como de deportes, historia, cine, música, etc. Tiene diferentes modalidades como facil, medium y hard; y se puede elegir hasta 20 preguntas. Las tecnologías utilizadas para realizar esto fueron:HTML - SASS - JS - REACT',
+        description: 'Ive used the Open-Trivia DB and created this app where you can play different quizzes like Sports, Music, Film, History, etc. It has different modes, like easy, medium and hard, and you can choose up to 20 questions. The technologies used for this project were: HTML - SASS - JS - REACT'
+    },
 ]
