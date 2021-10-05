@@ -107,5 +107,16 @@ export const projectsList = [
         route: 'https://trivia-app-project.netlify.app/',
         descripcion: 'Use la api Open-Trivia y cree esta app donde podes jugar diferentes quizes como de deportes, historia, cine, música, etc. Tiene diferentes modalidades como facil, medium y hard; y se puede elegir hasta 20 preguntas. También utilize Firebase para crear una base de datos para poder crear usuarios con sus respectivas contraseñas. Tambien almacenará todos los puntajes de cada usuario respectivamente. Las tecnologías utilizadas para realizar esto fueron:HTML - SASS - JS - REACT',
         description: 'Ive used the Open-Trivia DB and created this app where you can play different quizzes like Sports, Music, Film, History, etc. It has different modes, like easy, medium and hard, and you can choose up to 20 questions. I also used firebase to create a database so we can create users with their respective passwords. It will store all the scores from every user. The technologies used for this project were: HTML - SASS - JS - REACT'
-    },
+    },{
+        id:12,
+        name: 'World Timezones App (Coderio Challenge)',
+        code: 'react',
+        repo:'https://github.com/TomasCapizzi/coderio-challenge',
+        img: './img/responsive/timezones.png',
+        gif: './gif/timezones.gif',
+        route: 'https://worldtimezones.netlify.app/',
+        descripcion: 'Para este proyecto me base en el challenge de Coderio, el cual pedía utilizar la API de Worldtimezones y poder elegir horarios de cualquier parte. Las tecnologías utilizadas para realizar esto fueron:HTML - SASS - JS - REACT',
+        description: 'For this project i based on Coderio´s challenge, which consists on using Worldtimezones API y choose between different regions and timezones from anywhere . The technologies used for this project were: HTML - SASS - JS - REACT'
+    
+    }
 ]
