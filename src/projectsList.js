@@ -111,7 +111,7 @@ export const projectsList = [
         id:12,
         name: 'World Timezones App (Coderio Challenge)',
         code: 'react',
-        repo:'https://github.com/TomasCapizzi/coderio-challenge',
+        repo:'https://github.com/TomasCapizzi/timezones',
         img: './img/responsive/timezones.png',
         gif: './gif/timezones.gif',
         route: 'https://worldtimezones.netlify.app/',

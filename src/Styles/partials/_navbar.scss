@@ -18,6 +18,10 @@
             color: #98C1D9;
             transition: ease-in 0.15s;
         }
+        a:nth-child(1) li:hover{
+            animation-name: icons;
+            animation-duration: 0.5s;
+        }
         a{
             text-decoration: none;
         }
@@ -44,6 +48,17 @@
     }
 }
 
+
+
+// Animations
+@keyframes icons {
+    0%{
+        transform: rotate(0);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
 
 @media only screen and (max-width: 600px){
     .menu{

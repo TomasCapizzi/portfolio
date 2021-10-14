@@ -9,6 +9,8 @@
         margin: 45px;
         color: #ED6C4E;
         font-size: 3.2rem;
+        animation-name: start;
+        animation-duration: 0.8s;
     }
     .info{
         display: grid;
@@ -41,7 +43,22 @@
         li:hover{
             color: #98C1D9;
             transition: ease-in 0.2s;
+            animation-name: icons;
+            animation-duration: 0.5s;
         }
+    }
+}
+
+//Animations
+
+@keyframes start{
+    0%{
+        margin: 0;
+        opacity: 0;
+    }
+    100%{
+        margin: 45px;
+        opacity: 1;
     }
 }
 
