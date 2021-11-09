@@ -79,14 +79,14 @@ export const projectsList = [
         description: 'The memory game consists of remembering the location of different pairs of images and locating them correctly. It was made with JS vanilla'
     },{
         id:9,
-        name: 'Expense Control',
-        code: 'js',
-        repo:'https://github.com/TomasCapizzi/gastos',
-        img: './img/responsive/gastos.png',
-        gif: './gif/gastos.gif',
-        route: 'https://tomascapizzi.github.io/gastos/',
-        descripcion: 'Hice esta página para poner en práctica mi conocimientos de Javascript cuando estaba arrancando. Es muy sencilla, ',
-        description: 'I made this page to put my knowledge of Javascript into practice. It is very simple, it serves to add expenses and manage them.'
+        name: 'Chat app',
+        code: 'react',
+        repo:'https://github.com/TomasCapizzi/auth-chat-app',
+        img: './img/responsive/chat.png',
+        gif: './gif/chat.gif',
+        route: 'https://chat-app-auth.netlify.app/',
+        descripcion: 'Esta app es un chat en tiempo real. Fue hecha para aprender los sistemas de autentificación de Firebase y al mismo tiempo para practicar con firebase database. Use React JS y Sass para los estilos.',
+        description: 'This app is a real time chat application.It was done to learn firebase authentication services and to keep practising with firebase database. I´ve used React JS and Sass for styling'
     },{
         id:10,
         name: 'Pokedex',
