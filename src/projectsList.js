@@ -50,14 +50,14 @@ export const projectsList = [
         description: 'A replica of the well-known Memotest game, the purpose of the game is to find the color pair with the fewest possible moves. It has 3 types of difficulties. The project was made with: HTML - CSS - JS VANILLA'       
     },{
         id:6,
-        name: 'Rick and Morty',
-        code: 'js',
-        repo:'https://github.com/TomasCapizzi/rick-morty-app',
-        img: './img/responsive/rick.png',
-        gif:'./gif/rickmorty.gif',
-        route: 'https://tomascapizzi.github.io/rick-morty-app/',
-        descripcion: 'Esta app esta hecha con la API de Rick & Morty. Fue mi primer acercamiento al uso de API´s. Se pueden ver referencias de los personajes y filtrar por episodios o nombres. Esta realizada con HTML - CSS - JS VANILLA',
-        description: 'This application was made with the Rick & Morty API. It was my first approach to using APIs. We can see references of the characters and filter by names and episodes. It was made with: HTML - CSS - JS VANILLA'
+        name: 'Medical Records',
+        code: 'react',
+        repo:'https://github.com/TomasCapizzi/historia-clinica',
+        img: './img/responsive/records.png',
+        gif:'./gif/records.gif',
+        route: 'https://historia-clinica.vercel.app/',
+        descripcion: 'Esta app esta hecha para mantener un registro de historias clínicas. Esta pensada para el uso de doctores. Se pueden registrar mediante Google, gracias a Firebase Auth. Los datos se guardan en Firestore. Esta desarrollada con React, Sass y Firebase. Además se utilizó react-icons, react-router-dom.',
+        description: 'This application was made to keep a register of medical records. It´s purpose is for doctors use only. They can login with Google, thanks to firebase auth. Data is stored in firestore. It´s developed with React, Sass and Firebase. I also used react-icons and react-router-dom.'
     },{
         id:7,
         name: 'Famox SA',

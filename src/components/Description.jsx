@@ -2,7 +2,7 @@ import React,{useContext} from 'react';
 import {AiFillHtml5, AiFillGithub} from 'react-icons/ai';
 import {SiJavascript} from 'react-icons/si';
 import {FaReact, FaSass, FaCss3Alt, FaWordpress} from 'react-icons/fa';
-import {SiAdobepremiere, SiAdobeaftereffects, SiAdobeillustrator, SiAdobephotoshop} from 'react-icons/si';
+import {SiAdobepremiere, SiAdobeaftereffects, SiAdobeillustrator, SiAdobephotoshop, SiFirebase} from 'react-icons/si';
 import { LanguageContext } from './Languagecontext/LanguageContext';
 
 
@@ -30,19 +30,20 @@ export default function Description(){
                 }
 
             </div>
-<ul>
-    <li><AiFillHtml5/></li>
-    <li><FaCss3Alt/></li>
-    <li><SiJavascript/></li>
-    <li><FaReact/></li>
-    <li><FaSass/></li>
-    <li><AiFillGithub/></li>
-    <li><FaWordpress/></li>
-    <li><SiAdobepremiere/></li>
-    <li><SiAdobeaftereffects/></li>
-    <li><SiAdobeillustrator/></li>
-    <li><SiAdobephotoshop/></li>
-</ul>
+            <ul>
+                <li><AiFillHtml5/></li>
+                <li><FaCss3Alt/></li>
+                <li><SiJavascript/></li>
+                <li><FaReact/></li>
+                <li><SiFirebase/></li>
+                <li><FaSass/></li>
+                <li><AiFillGithub/></li>
+                <li><FaWordpress/></li>
+                <li><SiAdobepremiere/></li>
+                <li><SiAdobeaftereffects/></li>
+                <li><SiAdobeillustrator/></li>
+                <li><SiAdobephotoshop/></li>
+            </ul>
         </div>
     )
 }
