@@ -2,12 +2,15 @@ import React, {useState,useContext ,useEffect} from 'react';
 import { useParams } from 'react-router';
 import {projectsList} from '../projectsList';
 import {AiFillGithub} from 'react-icons/ai';
+import {HiOutlineArrowLeft} from 'react-icons/hi'
 import { LanguageContext } from './Languagecontext/LanguageContext';
+import { Link } from 'react-router-dom';
 
 export default function ProjectDetail(){
     const {english} = useContext(LanguageContext)
     const{id} = useParams();
     const [project, setProject] = useState();
+
 
     useEffect(()=>{
         setProject(projectsList[parseInt(id)-1])
@@ -15,6 +18,7 @@ export default function ProjectDetail(){
 
     return(
         <div className='detail-container'>
+            <Link to='/'><HiOutlineArrowLeft className='backpage'/></Link>
             { project ? <>
                 <h1>{project.name}</h1>
             <div>

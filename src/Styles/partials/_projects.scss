@@ -1,13 +1,15 @@
+@import './data';
+
 .projects{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
     margin-top: 100px;
     h3{
         width: 100%;
         text-align: center;
-        color: #ED6C4E;
+        color: $c2;
         font-size: 4rem;
     }
 }
@@ -30,34 +32,40 @@
     }
 }
 
-.projects-react{
-    background-color: #ED6C4E;
+.list{
+    background-color: $c4;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
 
-    span{
-        width: 500px;
-    }
-    div:nth-child(1){
-        width: 20%;
+    .title{
+        width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
-        margin:0;
-        padding: 0;
-        margin-left: 20px;
+        text-align: center;
+        margin-bottom: 25px;
         h3{
-            color: #3E5B80;
+            width: auto;
+            color: $c3;
             padding: 0;
             margin:0;
             font-size: 3.6rem;
         }
         svg{
-            color:#98C1D9;
+            color:$c3;
             font-size: 80px;
+            margin: 0 15px;
         }
+    }
+
+    .preview{
+        width: 100%;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(4,1fr);
     }
     .filter{
         display: flex;
@@ -66,77 +74,21 @@
 
 }
 
-
-
-
-.projects-jsVanilla{
-    background-color: #3E5B80;
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    justify-content: flex-start;
-    align-items: center;
-    margin:0;
-    padding: 0;
-
-    span{
-        width: 300px;
-    }
-
-    div:nth-child(1){
-        width: 20%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin:0;
-        padding: 0;
+.b{
+    background-color: $c1;
+    .title{
         h3{
-            color: #ED6C4E;
-            padding: 0;
-            margin:0;
+            color: $c2;
             font-size: 3.6rem;
         }
         svg{
-            color:#98C1D9;
-            font-size: 80px;
+            color: $c2;
         }
     }
+
 }
 
 
-.projects-wordpress{
-    background-color: #293242;
-    display: flex;
-    width: 100%;
-    justify-content: flex-start;
-    padding-bottom: 150px;
-    align-items: center;
-    margin:0;
-    padding: 0;
-
-    span{
-        width: 300px;
-    }
-
-    div:nth-child(1){
-        width: 25%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin:0;
-        padding: 0;
-        h3{
-            color: #ED6C4E;
-            padding: 0;
-            margin:0;
-            font-size: 3.6rem;
-        }
-        svg{
-            color:#ED6C4E;
-            font-size: 80px;
-        }
-    }
-}
 
 
 @media (max-width: 600px){
@@ -148,84 +100,56 @@
             font-size: 3rem;
         }
     }
+        
+    .list{
+        background-color: $c4;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
 
-    .projects-react{
-        background-color: #ED6C4E;
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: center;
-    
-        span{
-            width: 0px;
-        }
-        div:nth-child(1){
-            width: 100%;
-            justify-content: space-around;
-            margin-left: 0px;
-            margin-bottom: 15px;
+        .title{
+            width: 90%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 25px;
             h3{
-                font-size: 2.8rem;
-                width: 50%;
+                font-size: 2.5rem;
             }
             svg{
-                font-size: 60px;
-                width: 50%;
+                display: none;
             }
-        }  
-    }   
-    
-    .projects-jsVanilla{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: center;
-    
-        span{
-            width: 300px;
         }
-    
-        div:nth-child(1){
+
+        .preview{
             width: 100%;
-            justify-content: space-around;
-            margin-left: 0px;
-            margin-bottom: 15px;
-            h3{
-                font-size: 2.8rem;
-                width: 50%;
-            }
-            svg{
-                font-size: 60px;
-                width: 50%;
-            }
+            display: grid;
+            justify-items: center;
+            grid-template-columns:1fr;
         }
+        .filter{
+            display: flex;
+        }
+
+
     }
-    
-    
-    .projects-wordpress{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: center;
-        span{
-            width: 300px;
-        }
-    
-        div:nth-child(1){
-            width: 100%;
-            justify-content: space-around;
-            margin-left: 0px;
-            margin-bottom: 15px;
+    .b{
+        background-color: $c1;
+        .title{
             h3{
-                font-size: 2.8rem;
-                width: 50%;
+                color: $c2;
             }
             svg{
-                font-size: 60px;
-                width: 50%;
+                color: $c2;
             }
         }
+    
     }
+
 
 } 
 
@@ -240,84 +164,56 @@
             font-size: 3rem;
         }
     }
+   
+    .list{
+        background-color: $c4;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
 
-    .projects-react{
-        background-color: #ED6C4E;
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: center;
-    
-        span{
-            width: 0px;
-        }
-        div:nth-child(1){
-            width: 100%;
-            justify-content: space-around;
-            margin-left: 0px;
-            margin-bottom: 15px;
+        .title{
+            width: 90%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 25px;
             h3{
-                font-size: 2.8rem;
-                width: 50%;
+                font-size: 2.9rem;
             }
             svg{
-                font-size: 60px;
-                width: 50%;
+                font-size: 2.5rem;
             }
-        }  
-    }   
-    
-    .projects-jsVanilla{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: center;
-    
-        span{
-            width: 0px;
         }
-    
-        div:nth-child(1){
+
+        .preview{
             width: 100%;
-            justify-content: space-around;
-            margin-left: 0px;
-            margin-bottom: 15px;
-            h3{
-                font-size: 2.8rem;
-                width: 50%;
-            }
-            svg{
-                font-size: 60px;
-                width: 50%;
-            }
+            display: grid;
+            justify-items: center;
+            grid-template-columns:repeat(2,1fr);
         }
+        .filter{
+            display: flex;
+        }
+
+
     }
-    
-    
-    .projects-wordpress{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: center;
-        span{
-            width: 0px;
-        }
-    
-        div:nth-child(1){
-            width: 100%;
-            justify-content: space-around;
-            margin-left: 0px;
-            margin-bottom: 15px;
+    .b{
+        background-color: $c1;
+        .title{
             h3{
-                font-size: 2.8rem;
-                width: 50%;
+                color: $c2;
             }
             svg{
-                font-size: 60px;
-                width: 50%;
+                color: $c2;
             }
         }
+    
     }
+
 
 } 
 
@@ -333,82 +229,51 @@
         }
     }
 
-    .projects-react{
-        background-color: #ED6C4E;
+    .list{
+        background-color: $c4;
         display: flex;
         flex-wrap: wrap;
         width: 100%;
+        align-items: center;
         justify-content: center;
-    
-        span{
-            width: 0px;
-        }
-        div:nth-child(1){
-            width: 100%;
-            justify-content: space-around;
-            margin-left: 0px;
-            margin-bottom: 15px;
-            h3{
-                font-size: 3.2rem;
-                width: 50%;
-            }
+
+        .title{
+            width: 90%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 25px;
+
             svg{
-                font-size: 70px;
-                width: 50%;
+                font-size: 2.5rem;
             }
-        }  
-    }   
-    
-    .projects-jsVanilla{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: center;
-    
-        span{
-            width: 0px;
         }
-    
-        div:nth-child(1){
+
+        .preview{
             width: 100%;
-            justify-content: space-around;
-            margin-left: 0px;
-            margin-bottom: 15px;
-            h3{
-                font-size: 3.2rem;
-                width: 50%;
-            }
-            svg{
-                font-size: 70px;
-                width: 50%;
-            }
+            display: grid;
+            justify-items: center;
+            grid-template-columns:repeat(2,1fr);
         }
+        .filter{
+            display: flex;
+        }
+
+
     }
-    
-    
-    .projects-wordpress{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: center;
-        span{
-            width: 0px;
-        }
-    
-        div:nth-child(1){
-            width: 100%;
-            justify-content: space-around;
-            margin-left: 0px;
-            margin-bottom: 15px;
+    .b{
+        background-color: $c1;
+        .title{
             h3{
-                font-size: 3.2rem;
-                width: 50%;
+                color: $c2;
             }
             svg{
-                font-size: 70px;
-                width: 50%;
+                color: $c2;
             }
         }
+    
     }
 
 }
@@ -423,84 +288,52 @@
             font-size: 3.6rem;
         }
     }
+    
+    .list{
+        background-color: $c4;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
 
-    .projects-react{
-        background-color: #ED6C4E;
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: center;
-    
-        span{
-            width: 0px;
-        }
-        div:nth-child(1){
-            width: 100%;
-            margin-left: 0px;
-            margin-bottom: 15px;
+        .title{
+            width: 90%;
+            display: flex;
+            flex-wrap: wrap;
             justify-content: center;
-            h3{
-                font-size: 3.6rem;
-                width: 20%;
-                
-            }
+            align-items: center;
+            text-align: center;
+            margin-bottom: 25px;
             svg{
-                font-size: 80px;
-                width: 20%;
+                font-size: 2.8rem;
             }
-        }  
-    }   
-    
-    .projects-jsVanilla{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: center;
-    
-        span{
-            width: 0px;
         }
-    
-        div:nth-child(1){
+
+        .preview{
             width: 100%;
-            justify-content: center;
-            margin-left: 0px;
-            margin-bottom: 15px;
-            h3{
-                font-size: 3.6rem;
-                width: 20%;
-            }
-            svg{
-                font-size: 70px;
-                width: 20%;
-            }
+            display: grid;
+            justify-items: center;
+            grid-template-columns:repeat(3,1fr);
         }
+        .filter{
+            display: flex;
+        }
+
+
     }
-    
-    
-    .projects-wordpress{
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        justify-content: center;
-        span{
-            width: 0px;
-        }
-    
-        div:nth-child(1){
-            width: 100%;
-            justify-content: center;
-            margin-left: 0px;
-            margin-bottom: 15px;
+    .b{
+        background-color: $c1;
+        .title{
             h3{
-                font-size: 3.6rem;
-                width: 20%;
+                color: $c2;
             }
             svg{
-                font-size: 70px;
-                width: 20%;
+                color: $c2;
             }
         }
+    
     }
+
 
 }

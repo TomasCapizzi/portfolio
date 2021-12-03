@@ -1,7 +1,9 @@
+@import './data';
+
 .footer{
-    background-color: #ED6C4E;
+    background-color: $c2;
     width: 100%;
     text-align: center;
-    color: #293242;
+    color: $c4;
     font-weight: bold;
 }

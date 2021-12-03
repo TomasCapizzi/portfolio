@@ -2,7 +2,15 @@ export const projectsList = [
     {
         id:1,
         name: 'Craft-Beer',
-        code: 'react',
+        code: 'react-fb',
+        tech:{
+            responsive: true,
+            auth: false,
+            sass: true,
+            db: true,
+            ls: false,
+            api: false
+        },
         repo:'https://github.com/TomasCapizzi/ecommerce',
         img: './img/responsive/ecommerce.png',
         gif: './gif/Ecommerce.gif',
@@ -13,6 +21,14 @@ export const projectsList = [
         id:2,
         name: 'Recipe App',
         code: 'react',
+        tech:{
+            responsive: true,
+            auth: false,
+            sass: true,
+            db: false,
+            ls: true,
+            api: true
+        },
         repo:'https://github.com/TomasCapizzi/recipe-app',
         img: './img/responsive/recipe.png',
         gif: './gif/recipe-app2.gif',
@@ -23,6 +39,14 @@ export const projectsList = [
         id:3,
         name: 'Crypto Currencies',
         code: 'react',
+        tech:{
+            responsive: true,
+            auth: false,
+            sass: true,
+            db: false,
+            ls: true,
+            api: true
+        },
         repo: 'https://github.com/TomasCapizzi/crypto-currency',
         img: './img/responsive/crypto.png',
         gif: './gif/crypto.gif',
@@ -32,6 +56,14 @@ export const projectsList = [
         id:4,
         name: 'Brewers',
         code: 'js',
+        tech:{
+            responsive: true,
+            auth: false,
+            sass: false,
+            db: false,
+            ls: false,
+            api: false
+        },
         repo:'https://github.com/TomasCapizzi/brewers',
         img: './img/responsive/brewers.png',
         gif: './gif/brewers.gif',
@@ -42,6 +74,14 @@ export const projectsList = [
         id:5,
         name: 'Memotest',
         code: 'js',
+        tech:{
+            responsive: true,
+            auth: false,
+            sass: false,
+            db: false,
+            ls: false,
+            api: false
+        },
         repo:'https://github.com/TomasCapizzi/memotest',
         img: './img/responsive/memo.png',
         gif:'./gif/memotest.gif',
@@ -51,7 +91,15 @@ export const projectsList = [
     },{
         id:6,
         name: 'Medical Records',
-        code: 'react',
+        code: 'react-fb',
+        tech:{
+            responsive: true,
+            auth: true,
+            sass: true,
+            db: true,
+            ls: false,
+            api: false
+        },
         repo:'https://github.com/TomasCapizzi/historia-clinica',
         img: './img/responsive/records.png',
         gif:'./gif/records.gif',
@@ -62,6 +110,14 @@ export const projectsList = [
         id:7,
         name: 'Famox SA',
         code: 'wordpress',
+        tech:{
+            responsive: true,
+            auth: false,
+            sass: false,
+            db: false,
+            ls: false,
+            api: false
+        },
         img: './img/responsive/famoxresponsive.png',
         gif: './gif/famox.gif',
         route: 'http://www.famox.com.ar/',
@@ -73,6 +129,14 @@ export const projectsList = [
         img: './img/responsive/memorygame.png',
         gif: './gif/memorygame.gif',
         code: 'js',
+        tech:{
+            responsive: true,
+            auth: false,
+            sass: false,
+            db: false,
+            ls: false,
+            api: false
+        },
         repo:'https://github.com/TomasCapizzi/memory-game',
         route: 'https://tomascapizzi.github.io/memory-game/',
         descripcion: 'El juego de la memoria consiste en acordarse la ubicación de diferentes pares de imágenes y poder encontrarlas correctamente. Esta hecho con Js Vanilla.',
@@ -80,7 +144,15 @@ export const projectsList = [
     },{
         id:9,
         name: 'Chat app',
-        code: 'react',
+        code: 'react-fb',
+        tech:{
+            responsive: true,
+            auth: true,
+            sass: true,
+            db: true,
+            ls: false,
+            api: false
+        },
         repo:'https://github.com/TomasCapizzi/auth-chat-app',
         img: './img/responsive/chat.png',
         gif: './gif/chat.gif',
@@ -91,6 +163,14 @@ export const projectsList = [
         id:10,
         name: 'Pokedex',
         code: 'js',
+        tech:{
+            responsive: true,
+            auth: false,
+            sass: false,
+            db: false,
+            ls: false,
+            api: true
+        },
         repo:'https://github.com/TomasCapizzi/pokedex',
         img: './img/responsive/pokedex.png',
         gif: './gif/pokedex.gif',
@@ -100,7 +180,15 @@ export const projectsList = [
     },{
         id:11,
         name: 'Trivia App',
-        code: 'react',
+        code: 'react-fb',
+        tech:{
+            responsive: true,
+            auth: false,
+            sass: true,
+            db: true,
+            ls: false,
+            api: true
+        },
         repo:'https://github.com/TomasCapizzi/Trivia',
         img: './img/responsive/trivia.png',
         gif: './gif/trivia.gif',
@@ -111,6 +199,14 @@ export const projectsList = [
         id:12,
         name: 'World Timezones App (Coderio Challenge)',
         code: 'react',
+        tech:{
+            responsive: true,
+            auth: false,
+            sass: true,
+            db: false,
+            ls: false,
+            api: true
+        },
         repo:'https://github.com/TomasCapizzi/timezones',
         img: './img/responsive/timezones.png',
         gif: './gif/timezones.gif',

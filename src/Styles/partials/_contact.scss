@@ -1,3 +1,4 @@
+@import './data';
 .contact{
     display: flex;
     flex-direction: column;
@@ -7,14 +8,14 @@
     width: 100%;
     h3{
         text-align: center;
-        color: #ED6C4E;
+        color: $c2;
         font-size: 3.6rem;
         padding: 0;
     }
     p{
         width: 40%;
         font-size: 1.4rem;
-        color: #98C1D9;
+        color: $c3;
         margin-left: 25px;
         letter-spacing: 1px;
         text-align: justify;
@@ -28,14 +29,19 @@
         width: 30%;
         li{
             a{
-                color: #ED6C4E;
+                color: $c2;
             }
             
             font-size: 2.4rem;
         }
+        li:hover{
+            transition: ease-in 0.2s;
+            animation-name: icons;
+            animation-duration: 0.3s;
+        }
         a:hover{
-            color: #98C1D9;
-            transition: ease-in 0.15s;
+            color: $c3;
+
         }
     }
 }
@@ -66,7 +72,7 @@
 
 }
 
-@media only screen and (min-width:800px) and (max-width: 1024px){
+@media only screen and (min-width:600px) and (max-width: 1024px){
     .contact{
         display: flex;
         padding: 0;
@@ -87,6 +93,7 @@
             li{                
                 font-size: 2.2rem;
             }
+
         }
     }
 }

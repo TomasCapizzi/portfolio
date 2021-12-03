@@ -1,8 +1,10 @@
+@import './data';
+
 .menu{
     display: flex;
     width: 100%;
     justify-content: space-around;
-    background-color: #293242;
+    background-color: $c4;
    /* position: fixed;*/
     ul{
         display: flex;
@@ -10,12 +12,12 @@
         width: 50%;
         li{
             margin-right: 40px;
-            color: #ED6C4E;
+            color: $c2;
             font-weight: bold;
             cursor: pointer;
         }
         li:hover{
-            color: #98C1D9;
+            color: $c3;
             transition: ease-in 0.15s;
         }
         a:nth-child(1) li:hover{
@@ -32,10 +34,10 @@
             margin-right: 15px;
         }
         .englishOn{
-            color: #98C1D9;
+            color: $c3;
         }
         .englishOff{
-            color: #ED6C4E;
+            color: $c2;
         }
     }
 }
@@ -76,23 +78,23 @@
         align-items: center;
         width: 100%;
         justify-content: space-between;
-        background-color: #293242;
+        background-color: $c4;
         position: relative;
 
         a{
             margin-left: 15px;
-            color: #ED6C4E;
+            color: $c2;
             font-weight: bold;
             cursor: pointer;
             font-size: 1.2rem;
         }
         a:hover{
-            color: #98C1D9;
+            color: $c3;
             transition: ease-in-out 0.2s;
         }
         button{
             background-color: transparent;
-            color: #98C1D9;
+            color: $c3;
             border: none;
             font-size: 1.4rem;
             cursor: pointer;
@@ -105,7 +107,7 @@
             width: 200px;
             top: 30px;
             right: 0;
-            background-color: #98C1D9;
+            background-color: $c3;
             align-items: center;
             ul{
                 width: 100%;
@@ -117,7 +119,7 @@
                     text-align: center;
                     text-decoration: none;
                     margin: 0;
-                    color: #293242;
+                    color: $c4;
                     font-size: 1.25rem;
                     max-width: 100%;
                     li{
@@ -127,8 +129,8 @@
                 }
                 a li:hover{
                     transition: ease-in-out 0.3s;
-                    background-color: #293242;
-                    color: #ED6C4E;
+                    background-color: $c4;
+                    color: $c2;
                 }
             }
 
@@ -136,13 +138,13 @@
                 display: flex;
                 justify-content: space-around;
                 width: 100%;
-                background-color: #293242;
+                background-color: $c4;
                 button{
-                    color: #ED6C4E;
+                    color: $c2;
                     width: 50%;
                 }
                 button:hover{
-                    background-color: #ED6C4E;
+                    background-color: $c2;
                     color: #293242;
                     transition: ease-in-out 0.3s;
                 }
@@ -156,20 +158,15 @@
         display: flex;
         width: 100%;
         justify-content: space-around;
-        background-color: #293242;
-       /* position: fixed;*/
         ul{
             display: flex;
             list-style: none;
             width: 20%;
             li{
                 margin-right: 40px;
-                color: #ED6C4E;
+                color: $c2;
                 font-weight: bold;
                 cursor: pointer;
-            }
-            li:hover{
-                color: #98C1D9;
             }
         }
 

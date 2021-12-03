@@ -1,20 +1,21 @@
 import React,{useContext} from 'react';
 import {AiFillHtml5, AiFillGithub} from 'react-icons/ai';
-import {SiJavascript} from 'react-icons/si';
 import {FaReact, FaSass, FaCss3Alt, FaWordpress} from 'react-icons/fa';
-import {SiAdobepremiere, SiAdobeaftereffects, SiAdobeillustrator, SiAdobephotoshop, SiFirebase} from 'react-icons/si';
+import {SiAdobepremiere, SiAdobeaftereffects, SiAdobeillustrator, SiAdobephotoshop, SiJavascript,SiFirebase} from 'react-icons/si';
+//import {HiChevronDoubleLeft, HiChevronDoubleRight} from 'react-icons/hi'
 import { LanguageContext } from './Languagecontext/LanguageContext';
 
 
 
 export default function Description(){
 
-    const {english} = useContext(LanguageContext)
+    const {english} = useContext(LanguageContext);
 
     return(
-        <div className='about-me'>
-            <h1 id='about-me'>Tomas Capizzi</h1>
-            <div className='info'>
+        <div className='about-me'id='aboutme' >
+            <h1 id='about-me'>{english ? `Hi, I'm Tomas Capizzi !` : 'Hola, soy Tomás Capizzi'}</h1>
+            <h2>FRONT END DEVELOPER</h2>          
+            <div className='info' id='info'>
                 <div>
                     <img src="./img/115.jpg" alt="profile" />
                 </div>

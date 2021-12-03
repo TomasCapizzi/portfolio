@@ -7,6 +7,7 @@ export default function Contact(){
 
     const {english} = useContext(LanguageContext)
 
+
     return (
         <div className='contact'>
             <h3 id='contact'>{english  ? 'Contact' : 'Contacto'}</h3>
