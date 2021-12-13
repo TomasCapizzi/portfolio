@@ -12,27 +12,24 @@ import LanguageContextProvider from './components/Languagecontext/LanguageContex
 
 
 function App() {
-
-
-
   return (
     <div className="app">
       <LanguageContextProvider>
-      <BrowserRouter>
-      <Switch>
-        <Route exact path='/'>
-          <Navbar/>
-          <Description />
-          <Projects/>
-          <Contact/>
-        </Route>
-        <Route path='/project/:id'>
-          <NavDetail/>
-          <ProjectDetail/>
-        </Route>
-      </Switch>
-      <Footer/>
-      </BrowserRouter>
+        <BrowserRouter>
+          <Switch>
+            <Route exact path='/'>
+              <Navbar/>
+              <Description />
+              <Projects/>
+              <Contact/>
+            </Route>
+            <Route path='/project/:id'>
+              <NavDetail/>
+              <ProjectDetail/>
+            </Route>
+          </Switch>
+          <Footer/>
+        </BrowserRouter>
       </LanguageContextProvider>
     </div>
   );

@@ -9,7 +9,8 @@ export const projectsList = [
             sass: true,
             db: true,
             ls: false,
-            api: false
+            api: false,
+            customHook: false
         },
         repo:'https://github.com/TomasCapizzi/ecommerce',
         img: './img/responsive/ecommerce.png',
@@ -27,7 +28,8 @@ export const projectsList = [
             sass: true,
             db: false,
             ls: true,
-            api: true
+            api: true,
+            customHook: false
         },
         repo:'https://github.com/TomasCapizzi/recipe-app',
         img: './img/responsive/recipe.png',
@@ -45,7 +47,8 @@ export const projectsList = [
             sass: true,
             db: false,
             ls: true,
-            api: true
+            api: true,
+            customHook: false
         },
         repo: 'https://github.com/TomasCapizzi/crypto-currency',
         img: './img/responsive/crypto.png',
@@ -62,7 +65,8 @@ export const projectsList = [
             sass: false,
             db: false,
             ls: false,
-            api: false
+            api: false,
+            customHook: false
         },
         repo:'https://github.com/TomasCapizzi/brewers',
         img: './img/responsive/brewers.png',
@@ -80,7 +84,8 @@ export const projectsList = [
             sass: false,
             db: false,
             ls: false,
-            api: false
+            api: false,
+            customHook: false
         },
         repo:'https://github.com/TomasCapizzi/memotest',
         img: './img/responsive/memo.png',
@@ -98,7 +103,8 @@ export const projectsList = [
             sass: true,
             db: true,
             ls: false,
-            api: false
+            api: false,
+            customHook: true
         },
         repo:'https://github.com/TomasCapizzi/historia-clinica',
         img: './img/responsive/records.png',
@@ -116,7 +122,8 @@ export const projectsList = [
             sass: false,
             db: false,
             ls: false,
-            api: false
+            api: false,
+            customHook: false
         },
         img: './img/responsive/famoxresponsive.png',
         gif: './gif/famox.gif',
@@ -135,7 +142,8 @@ export const projectsList = [
             sass: false,
             db: false,
             ls: false,
-            api: false
+            api: false,
+            customHook: false
         },
         repo:'https://github.com/TomasCapizzi/memory-game',
         route: 'https://tomascapizzi.github.io/memory-game/',
@@ -151,7 +159,8 @@ export const projectsList = [
             sass: true,
             db: true,
             ls: false,
-            api: false
+            api: false,
+            customHook: false
         },
         repo:'https://github.com/TomasCapizzi/auth-chat-app',
         img: './img/responsive/chat.png',
@@ -169,7 +178,8 @@ export const projectsList = [
             sass: false,
             db: false,
             ls: false,
-            api: true
+            api: true,
+            customHook: false
         },
         repo:'https://github.com/TomasCapizzi/pokedex',
         img: './img/responsive/pokedex.png',
@@ -187,7 +197,8 @@ export const projectsList = [
             sass: true,
             db: true,
             ls: false,
-            api: true
+            api: true,
+            customHook: true
         },
         repo:'https://github.com/TomasCapizzi/Trivia',
         img: './img/responsive/trivia.png',
@@ -205,7 +216,8 @@ export const projectsList = [
             sass: true,
             db: false,
             ls: false,
-            api: true
+            api: true,
+            customHook: true
         },
         repo:'https://github.com/TomasCapizzi/timezones',
         img: './img/responsive/timezones.png',

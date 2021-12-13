@@ -20,6 +20,7 @@ export default function Project({item}){
                         {item.tech.ls && <li><FaCheckCircle/> Local Storage</li>}
                         {item.tech.responsive && <li><FaCheckCircle/> Responsive</li>}
                         {item.tech.sass && <li><FaCheckCircle/> Sass</li>}
+                        {item.tech.customHook && <li><FaCheckCircle/> Custom Hooks</li>}
                     </ul>
                     <div>
                         <Link to={'/project/' + item.id}><button>Detail</button></Link>

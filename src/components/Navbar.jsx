@@ -19,7 +19,7 @@ export default function Navbar(){
         <nav className='menu'>
             <ul>
                 <a href='/' rel="noreferrer"><li><FaHome/></li></a>
-                <a href="#about-me" rel="noreferrer"><li>{english ? 'About Me' : '¿Quién Soy?'}</li></a>
+                <a href="#info-title" rel="noreferrer"><li>{english ? 'About Me' : '¿Quién Soy?'}</li></a>
                 <a href="#projects" rel="noreferrer"><li>{english ? 'Projects' : 'Proyectos'}</li></a>
                 <a href="#contact" rel="noreferrer"><li>{english ? 'Contact' : 'Contacto'}</li></a>
             </ul>
