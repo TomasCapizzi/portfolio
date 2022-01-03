@@ -167,7 +167,7 @@ export const projectsList = [
         gif: './gif/chat.gif',
         route: 'https://chat-app-auth.netlify.app/',
         descripcion: 'Esta app es un chat en tiempo real. Fue hecha para aprender los sistemas de autentificación de Firebase y al mismo tiempo para practicar con firebase database. Use React JS y Sass para los estilos.',
-        description: 'This app is a real time chat application.It was done to learn firebase authentication services and to keep practising with firebase database. I´ve used React JS and Sass for styling'
+        description: 'This app is a real time chat application.It was done to learn firebase authentication services and to keep practising with firebase database. Ive used React JS and Sass for styling'
     },{
         id:10,
         name: 'Pokedex',
