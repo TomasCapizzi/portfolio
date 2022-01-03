@@ -1,6 +1,6 @@
-import React from "react";
-import {Link} from 'react-router-dom';
 import {FaCheckCircle} from 'react-icons/fa';
+import {Link} from 'react-router-dom';
+import React from "react";
 
 export default function Project({item}){
 
@@ -19,8 +19,10 @@ export default function Project({item}){
                         {item.tech.db && <li><FaCheckCircle/> Firestore</li>}
                         {item.tech.ls && <li><FaCheckCircle/> Local Storage</li>}
                         {item.tech.responsive && <li><FaCheckCircle/> Responsive</li>}
+                        {item.tech.redux && <li><FaCheckCircle/>Redux</li>}
                         {item.tech.sass && <li><FaCheckCircle/> Sass</li>}
                         {item.tech.customHook && <li><FaCheckCircle/> Custom Hooks</li>}
+                        {item.tech.bulma && <li><FaCheckCircle/> Bulma Css</li>}
                     </ul>
                     <div>
                         <Link to={'/project/' + item.id}><button>Detail</button></Link>

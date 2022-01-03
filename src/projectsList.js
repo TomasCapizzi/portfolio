@@ -226,5 +226,25 @@ export const projectsList = [
         descripcion: 'Para este proyecto me base en el challenge de Coderio, el cual pedía utilizar la API de Worldtimezones y poder elegir horarios de cualquier parte. Las tecnologías utilizadas para realizar esto fueron:HTML - SASS - JS - REACT',
         description: 'For this project i based on Coderio´s challenge, which consists on using Worldtimezones API y choose between different regions and timezones from anywhere . The technologies used for this project were: HTML - SASS - JS - REACT'
     
+    },{
+        id:13,
+        name: 'Task Manager',
+        code: 'react',
+        tech:{
+            responsive: true,
+            auth: false,
+            bulma: true,
+            db: false,
+            ls: false,
+            api: false,
+            redux: true
+        },
+        repo:'https://github.com/TomasCapizzi/task-manager',
+        img: './img/responsive/taskmanager.png',
+        gif: './gif/taskmanager.gif',
+        route: 'https://task-manager-brown.vercel.app/',
+        descripcion: 'Task Manager es una aplicación de manejo de tareas.Este proyecto lo hice para aprender a utilizar Redux y Bulma. Las tecnologías utilizadas para realizar esto fueron:REACT-REDUX-BULMA',
+        description: 'Task Manager is an app where you can handle yous tasks. I developed it to learn Redux and Bulma. The technologies used for this project were: REACT-REDUX-BULMA'
+    
     }
 ]
