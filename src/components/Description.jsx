@@ -1,10 +1,13 @@
+import {AiFillGithub, AiFillHtml5} from 'react-icons/ai';
+import {BsChevronCompactDown, BsChevronCompactUp, BsChevronDoubleDown, BsChevronDoubleUp} from 'react-icons/bs'
+import {FaCss3Alt, FaGitAlt, FaNodeJs, FaReact, FaSass, FaWordpress} from 'react-icons/fa';
 import React,{useContext, useState} from 'react';
-import {AiFillHtml5, AiFillGithub} from 'react-icons/ai';
-import {FaReact, FaSass, FaCss3Alt,FaNodeJs, FaWordpress} from 'react-icons/fa';
-import {SiAdobepremiere, SiAdobeaftereffects, SiAdobeillustrator, SiAdobephotoshop, SiJavascript,SiFirebase} from 'react-icons/si';
-import {BsChevronDoubleDown, BsChevronCompactDown, BsChevronDoubleUp,BsChevronCompactUp } from 'react-icons/bs'
-//import {HiChevronDoubleLeft, HiChevronDoubleRight} from 'react-icons/hi'
+import {SiAdobeaftereffects, SiAdobeillustrator, SiAdobephotoshop, SiAdobepremiere, SiBulma, SiFirebase, SiJavascript, SiRedux} from 'react-icons/si';
+
 import { LanguageContext } from './Languagecontext/LanguageContext';
+
+//import {HiChevronDoubleLeft, HiChevronDoubleRight} from 'react-icons/hi'
+
 
 
 
@@ -36,10 +39,13 @@ export default function Description(){
                     <li><AiFillHtml5/><span>Html</span></li>
                     <li><FaCss3Alt/><span>Css</span></li>
                     <li><SiJavascript/><span>Javascript</span></li>
+                    <li><FaNodeJs/><span>Node Js</span></li>
                     <li><FaReact/><span>React</span></li>
+                    <li><SiRedux/><span>Redux</span></li>
                     <li><SiFirebase/><span>Firebase</span></li>
                     <li><FaSass/><span>Sass</span></li>
-                    <li><FaNodeJs/><span>Node Js</span></li>
+                    <li><SiBulma/><span>Bulma CSS</span></li>
+                    <li><FaGitAlt/><span>Git</span></li>
                     <li><AiFillGithub/><span>Github</span></li>
                     <li><FaWordpress/><span>Wordpress</span></li>
                     <li><SiAdobepremiere/><span>Premiere</span></li>
